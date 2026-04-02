@@ -78,3 +78,19 @@ input {
     background-color: var(--bg);
     color: var(--text);
 }
+
+.btn {
+    padding: .6rem .9rem;
+    border: 1px solid var(--borda);
+    background-color: var(--bg);
+    color: var(--text);
+    border-radius: .5rem;
+    cursor: pointer;
+     max-width: 200px;
+}
+
+.btn.primario {
+    margin-top: 1rem;
+    background-color: var(--acao);
+    color: #fff;
+}
