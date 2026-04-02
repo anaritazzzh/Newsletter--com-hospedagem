@@ -94,3 +94,13 @@ input {
     background-color: var(--acao);
     color: #fff;
 }
+
+.rodape {
+    border-top: 1px solid var(--borda);
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b7280;
+    margin-top: auto;
+}
