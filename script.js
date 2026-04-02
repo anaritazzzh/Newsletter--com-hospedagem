@@ -1,3 +1,5 @@
+console.log("Arquivo JS carregado com sucesso!");
+
 const root = document.documentElement;
 const btn = document.getElementById("btnTema");
 const ano = document.getElementById("ano");
