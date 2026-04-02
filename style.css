@@ -31,6 +31,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: var(--bg);
+    counter-reset: var(--texto);
 }
 
 .topo {
@@ -86,7 +88,7 @@ input {
     color: var(--text);
     border-radius: .5rem;
     cursor: pointer;
-     max-width: 200px;
+    max-width: 200px;
 }
 
 .btn.primario {
